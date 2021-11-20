@@ -1,0 +1,11 @@
+body{
+    background: #67BE4B;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+

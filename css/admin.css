@@ -1,0 +1,12 @@
+body{
+    background: #67BE4B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloc {
+    margin-bottom: 2em;
+}
+
+
