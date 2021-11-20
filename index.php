@@ -1,12 +1,7 @@
 <?php
 session_start();//session_start() combiné à $_SESSION (voir en fin de traitement du formulaire) nous permettra de garder le pseudo en sauvegarde pendant qu'il est connecté, si vous voulez que sur une page, le pseudo soit (ou tout autre variable sauvegardée avec $_SESSION) soit retransmis, mettez session_start() au début de votre fichier PHP, comme ici
 $bdd=mysqli_connect('localhost','root','','moduleconnexion');//'serveur','nom d'utilisateur','pass','nom de la base'
-if(!$bdd) {
-    echo "Erreur connexion BDD";
-    //Dans ce script, je pars du principe que les erreurs ne sont pas affichées sur le site, vous pouvez donc voir qu'elle erreur est survenue avec mysqli_error(), pour cela décommentez la ligne suivante:
-    //echo "<br>Erreur retournée: ".mysqli_error($mysqli);
-    exit(0);
-}
+
 
 ?><!DOCTYPE HTML>
 <html lang="fr">
